@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+button
+{
+     @apply w-14 h-14 text-xl font-semibold rounded cursor-pointer border-spacing-1 flex-row-reverse my-2  mx-1
+}
+.btn_yellow
+{
+    @apply bg-[rgb(245,146,3)]
+}
+.btn_grey
+{
+    @apply bg-[rgb(224,224,224)]
+}
+@tailwind utilities;
